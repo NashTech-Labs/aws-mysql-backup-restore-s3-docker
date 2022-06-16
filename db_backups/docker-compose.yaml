@@ -4,7 +4,7 @@ services:
     build: 
       context: .
       dockerfile: ./Dockerfile
-    container_name: database_backup_daily
+    container_name: database_backup
     environment:
       - MYSQL_DATABASE=xxxxxxxxxxxxx
       - MYSQL_HOST=xxxxxxxxxxxxx
